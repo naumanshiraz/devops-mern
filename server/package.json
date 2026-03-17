@@ -2,6 +2,7 @@
   "name": "task-app-server",
   "version": "1.0.0",
   "description": "Simple task app backend for DevOps demo",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -26,9 +27,9 @@
     "mongoose": "^7.5.0"
   },
   "devDependencies": {
-    "eslint": "^9.34.0",
+    "eslint": "^9.39.4",
     "nodemon": "^3.0.1",
-    "prettier": "^3.6.2"
+    "prettier": "^3.8.1"
   },
   "engines": {
     "node": ">=16.0.0"
