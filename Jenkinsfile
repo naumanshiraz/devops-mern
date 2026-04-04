@@ -6,6 +6,9 @@ pipeline {
         BACKEND_IMAGE  = "mern-backend:jenkins"
         PORT           = "5000"
         MONGO_URI      = "mongodb://mongo:27017/taskdb"
+
+        DOCKER_BUILDKIT = "1"
+        COMPOSE_DOCKER_CLI_BUILD = "1"
     }
 
     stages {
