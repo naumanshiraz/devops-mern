@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: devops-part3
+data:
+  # Example configuration values
+  MONGO_HOST: mongo
+  FRONT_URL: http://localhost:5173 
